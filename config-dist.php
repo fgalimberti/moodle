@@ -40,10 +40,10 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'pgsql';      // 'pgsql', 'mariadb', 'mysqli', 'auroramysql', 'sqlsrv' or 'oci'
 $CFG->dblibrary = 'native';     // 'native' only at the moment
-$CFG->dbhost    = 'localhost';  // eg 'localhost' or 'db.isp.com' or IP
+$CFG->dbhost    = 'ec2-34-251-233-253.eu-west-1.compute.amazonaws.com';  // eg 'localhost' or 'db.isp.com' or IP
 $CFG->dbname    = 'moodle';     // database name, eg moodle
-$CFG->dbuser    = 'username';   // your database username
-$CFG->dbpass    = 'password';   // your database password
+$CFG->dbuser    = 'qyovzhtsmmesvj';   // your database username
+$CFG->dbpass    = '169b1e0120d6c0d3b11ff4de0a1662a28d17988e7c4d0d8df51d5d7c4d1cc32c';   // your database password
 $CFG->prefix    = 'mdl_';       // prefix to use for all table names
 $CFG->dboptions = array(
     'dbpersist' => false,       // should persistent database connections be
